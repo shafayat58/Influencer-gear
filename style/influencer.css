@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
 }
+
 /* nave style */
 .navbar, nav_link, li{
   list-style: none;
@@ -24,4 +25,46 @@
   display: flex;
   gap: 30px;
   
+}
+/* banner style */
+.banner{
+  margin-top: 80px;
+  width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-image:url(../images/Circle\ design.svg);
+  background-position: top right;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-size: 500px;
+ 
+  
+}
+.banner_left{
+  width: 505px;
+  height:60.9 ;
+  /* margin-top: 26px; */
+}
+.btn_primary{
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 56px 10px 24px;
+  border-radius: 41px;
+  background-color: #E02C6D;
+  color: white;
+  margin-top: 26px;
+  
+  
+}
+.banner_left_tittle{
+  font-size: 3.5rem;
+  font-weight: 800;
+
+  color:#3A3A3A ;
+}
+.banner_left_description{
+  font-size: 1rem;
+  font-weight: 600;
 }
