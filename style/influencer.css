@@ -26,6 +26,20 @@
   gap: 30px;
   
 }
+
+
+/* button style */
+.btn_primary{
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 56px 10px 24px;
+  border-radius: 41px;
+  background-color: #E02C6D;
+  color: white;
+  margin-top: 26px;
+  
+  
+}
 /* banner style */
 .banner{
   margin-top: 80px;
@@ -42,20 +56,10 @@
  
   
 }
+
 .banner_left{
   width: 505px;
   height:60.9 ;
-  /* margin-top: 26px; */
-}
-.btn_primary{
-  font-size: 1rem;
-  font-weight: 700;
-  padding: 10px 56px 10px 24px;
-  border-radius: 41px;
-  background-color: #E02C6D;
-  color: white;
-  margin-top: 26px;
-  
   
 }
 .banner_left_tittle{
@@ -67,4 +71,15 @@
 .banner_left_description{
   font-size: 1rem;
   font-weight: 600;
+}
+/* brand style */
+.band_logo{
+width: 1440px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+margin: 0 165px;
+margin-top: 100px;
+
 }
